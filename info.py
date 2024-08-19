@@ -13,22 +13,22 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6165486744:AAFW3C6588558QbLWfRD_-ddGAWAfY')
+API_ID = int(environ.get('API_ID', '23475322'))
+API_HASH = environ.get('API_HASH', 'e00e5cebf073df8baba7db34ea0ebdc9')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6170050819').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/Spark_Developer")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002246184289'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Moviez_Gang')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002172731336').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://username:password@cluster0.jhvfd.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002161681487'))
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/2d030f17278768080c72f.jpg')
+START_IMG = environ.get('START_IMG', 'https://graph.org/file/2d030f17278768080c72f.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002208244566'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002214414905'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
