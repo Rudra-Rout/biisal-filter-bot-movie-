@@ -13,37 +13,37 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '23475322'))
-API_HASH = environ.get('API_HASH', 'e00e5cebf073df8baba7db34ea0ebdc9')
+API_ID = int(environ.get('API_ID', '27778576'))
+API_HASH = environ.get('API_HASH', 'fbe65bde59965ea035199d7c848ae3a4')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6170050819').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/Spark_Developer")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002246184289'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Moviez_Gang')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002172731336').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6204213163').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/Deo_boii")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001621944396'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movies_Mail')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002109371132').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002161681487'))
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002222134137'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/2d030f17278768080c72f.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/2d030f17278768080c72f.jpg')
+START_IMG = environ.get('START_IMG', 'https://te.legra.ph/file/28072d2769ff47a75e909.jpg https://te.legra.ph/file/150c38cad334f6a36d924.jpg https://te.legra.ph/file/bbe6545cc5459dc3d3369.jpg https://te.legra.ph/file/9765066148a76efa14156.jpg https://te.legra.ph/file/bd9b10dd1759d45c6293e.jpg https://te.legra.ph/file/cc4dfeee5ea5dea688808.jpg https://te.legra.ph/file/1e28e21eea1b5861daade.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002208244566'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002214414905'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002248202458'))
 URL = environ.get('URL', '')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002161681487'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Verify_By_Token/4")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002205338056'))
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Verify_Tutorial_Video/3")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "80118c72026ffc6debd8d4d909af5bf753a86f4a")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'adrinolinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "002f169e77fe7f00dbdba6d4ddc7e8e62e9c8a32")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "41a89e7a1f16e7dbec0ee52d743f3b5a38a09613")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortslink2.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f287e7e9b1a23c34f542f77787d39607cae36a4d")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortslink3.online')
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'earn4link.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "25e014f3775777226dca760cca1a50a47732c5c2")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkpays.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 
@@ -53,13 +53,13 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '-1002061083620')
+auth_channel = environ.get('AUTH_CHANNEL', '-1510309202')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002061083620'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002161681487')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001575451101'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002109371132')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002236108663'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002236108663'))
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002167659693'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002085669974'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
