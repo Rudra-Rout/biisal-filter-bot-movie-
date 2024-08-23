@@ -1,11 +1,11 @@
 class script(object):
-    START_TXT = """<b> 🎭ᴀꜱꜱᴀʟᴀᴍᴜᴀʟᴀɪᴋᴜᴍ {} {},
+    START_TXT = """<b> 🎭 Hello {} {},
     
 <blockquote>ɪᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ..
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</blockquote>
 <blockquote>ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 🤞🏻</blockquote>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Spark_Developer'>ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a>
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/rudra_tg'>•°•°☁Ꭱ𐌵ⓓᵣά☁°•°•</a>
 </b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
@@ -15,8 +15,8 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ɴᴏᴛᴇ - ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋ ɪɴ ʙᴏᴛʜ ɢʀᴏᴜᴘs ᴀɴᴅ ʙᴏᴛ ᴘᴍ</b>"""
     FSUB_TXT = """<b>•   😗
 •  sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ   😉
-• Made by :- ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ
-ᴇx: <code>ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ</code>
+• Made by :- •°•°☁Ꭱ𐌵ⓓᵣά☁°•°•
+ᴇx: <code>Rout</code>
 
  ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ  ᴄʜᴀɴɴᴇʟ.
 
@@ -34,16 +34,16 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
     TTS_TXT="""
 <b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ</b>"""
 
-    ABOUT_TEXT = """<b>🎭 ᴀꜱꜱᴀʟᴀᴍᴜᴀʟᴀɪᴋᴜᴍ {},
+    ABOUT_TEXT = """<b>🎭 Hello {},
     
 🤖 ɪ'ᴍ <a href=https://t.me/{}</a> 
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
-😚 ᴍʏ ᴛʀᴜsᴛʏ ᴏᴡɴᴇʀ: <a href="https://telegram.me/Spark_Developer">ᴘʏʀᴏғᴏʀᴋ</a>
-🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href="https://telegram.me/Spark_Developer">ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a>
-🧑🏻‍💻 ᴍʏ ᴏᴡɴᴇʀ : <a href="https://telegram.me/Spark_Developer">ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a>
-🧑🏻‍💻 ʀᴇᴘᴏ ᴏᴡɴᴇʀ : <a href="https://telegram.me/Spark_Developer">ʟɪɴᴋ</a>
+😚 ᴍʏ ᴛʀᴜsᴛʏ ᴏᴡɴᴇʀ: <a href="https://telegram.me/rudraraut">ᴘʏʀᴏғᴏʀᴋ</a>
+🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href="https://telegram.me/rudra_tg">•°•°☁Ꭱ𐌵ⓓᵣά☁°•°•</a>
+🧑🏻‍💻 ᴍʏ ᴏᴡɴᴇʀ : <a href="https://telegram.me/Rudra_Tg">•°•°☁Ꭱ𐌵ⓓᵣά☁°•°•</a>
+🧑🏻‍💻 ʀᴇᴘᴏ ᴏᴡɴᴇʀ : <a href="https://telegram.me/rudraraut">ʟɪɴᴋ</a>
 </b>"""
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -52,7 +52,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨</b>'''
 
     
-    REF_LINK = '''🔗 <b>Hᴇʀᴇ ɪs ᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ: <code>https://telegram.me/{}?start=Spark_Developer-{}</code>
+    REF_LINK = '''🔗 <b>Hᴇʀᴇ ɪs ᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ: <code>https://telegram.me/{}?start=Rudra_tg-{}</code>
     
 👥 Fᴏʀ ᴇᴠᴇʀʏ ɴᴇᴡ ᴜsᴇʀ ᴡʜᴏ sᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ ᴜsɪɴɢ ᴛʜɪs ʟɪɴᴋ, ʏᴏᴜ ᴡɪʟʟ ʀᴇᴄᴇɪᴠᴇ 100 ᴘᴏɪɴᴛs. 
 
@@ -105,7 +105,7 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/Spark_Developer'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<a href='https://t.me/rudraraut'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
@@ -151,9 +151,9 @@ User - {}"""
 ➥ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan
 ‼️ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs & ɪᴛ's ᴘʀɪᴄᴇs</b>"""
 
-    BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>youtuberking@jkb</code> ᴜᴘɪ ɪᴅ.
+    BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>araj9999@ybl</code> ᴜᴘɪ ɪᴅ.
     
-○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @Spark_Developer 
+○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @rudra_tg 
 
 ○ <u>ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ sᴛᴇᴘ</u> : ᴏʀ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ /bought ᴄᴏᴍᴍᴀɴᴅ.
 
