@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094191566').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/rudra_tg")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001708847803'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001815553774'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/allmovises00')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001913887799').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
