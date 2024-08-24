@@ -17,11 +17,11 @@ API_ID = int(environ.get('API_ID', '27778576'))
 API_HASH = environ.get('API_HASH', 'fbe65bde59965ea035199d7c848ae3a4')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6204213163').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/Deo_boii")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001621944396'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movies_Mail')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002109371132').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094191566').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/rudra_tg")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001708847803'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/allmovises00')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001913887799').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
@@ -55,8 +55,8 @@ REF_PREMIUM = 30
 PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1001510309202')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001575451101'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002109371132')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001913887799'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1001708847803')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002167659693'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002085669974'))
