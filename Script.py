@@ -105,10 +105,8 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>"""
-
+    FILE_CAPTION = """<a href='https://t.me/rudraraut'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
