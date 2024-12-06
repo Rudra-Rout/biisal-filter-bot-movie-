@@ -4,7 +4,6 @@ from database.ia_filterdb import Media
 from database.users_chats_db import db
 from info import API_ID, API_HASH, ADMINS, BOT_TOKEN, LOG_CHANNEL, PORT, SUPPORT_GROUP
 from utils import temp
-from plugins import pm_filter
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script
