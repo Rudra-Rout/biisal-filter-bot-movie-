@@ -865,16 +865,3 @@ async def set_time_3(client, message):
         return await message.reply_text("Command Incomplete!")   
     await save_group_settings(grp_id, 'third_verify_time', time)
     await message.reply_text(f"Successfully set 1st verify time for {title}\n\nTime is - <code>{time}</code>")
-    from pyrogram import Client, filters
-from info import MOVIE_GROUP_LINK
-
-@Client.on_message(filters.command("m_grp"))
-async def set_group(client, message):
-    global MOVIE_GROUP_LINK
-    args = message.text.split(maxsplit=1)
-    if len(args) > 1:
-        MOVIE_GROUP_LINK = args[1]
-        await message.reply(f"Group link updated to: {MOVIE_GROUP_LINK}")
-    else:
-        await message.reply("Please provide a group link! Usage: `/m_grp <group_link>`")
-        
