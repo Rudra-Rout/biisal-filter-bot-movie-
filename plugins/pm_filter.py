@@ -1516,3 +1516,10 @@ async def advantage_spell_chok(message):
         await message.delete()
     except:
         pass
+from pyrogram import Client, filters
+
+@Client.on_message(filters.private & ~filters.command("m_grp"))
+async def handle_pm(client, message):
+    # Reply to personal messages
+    await message.reply("Hello! This bot works in personal chats too. 😊")
+	
